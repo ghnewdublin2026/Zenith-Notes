@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith | Own Your Focus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); }
+        .gradient-text { background: linear-gradient(90deg, #818cf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-300 selection:bg-indigo-500/30">
+
+    <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+        <div class="text-white font-bold text-2xl tracking-tighter italic">ZENITH</div>
+        <div class="space-x-8 text-sm font-medium hidden md:block">
+            <a href="#features" class="hover:text-white transition">Features</a>
+            <a href="#roadmap" class="hover:text-white transition">Roadmap</a>
+            <a href="#" class="px-5 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-500 transition shadow-lg shadow-indigo-500/20">Launch Dashboard</a>
+        </div>
+    </nav>
+
+    <header class="relative pt-20 pb-32 px-6 overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-bold mb-6 tracking-widest uppercase">
+                The Life OS for 2026
+            </span>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight">
+                Don't just track time. <br/>
+                <span class="gradient-text">Own your focus.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-zinc-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Zenith is a high-performance cognitive load manager. Bridge the gap between intent and action with interstitial logging and real-time energy tracking.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-zinc-200 transition">Get Started for Free</button>
+                <button class="px-8 py-4 bg-zinc-900 text-white font-bold rounded-xl border border-zinc-800 hover:border-zinc-700 transition">View Demo</button>
+            </div>
+        </div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-indigo-600/10 blur-[120px] rounded-full -z-10"></div>
+    </header>
+
+    <section class="max-w-5xl mx-auto px-6 -mt-20">
+        <div class="glass border border-white/10 rounded-2xl p-4 shadow-2xl">
+            <div class="bg-zinc-900 rounded-xl overflow-hidden border border-white/5 aspect-video md:aspect-[21/9] flex items-center justify-center">
+                <div class="text-center">
+                    <div class="flex items-center gap-2 mb-4 justify-center">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <p class="text-zinc-500 font-mono text-sm">[ Interactive Dashboard Preview ]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-32 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="space-y-4">
+                <div class="w-12 h-12 bg-indigo-600/20 rounded-lg flex items-center justify-center text-indigo-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white">30-Second Capture</h3>
+                <p class="text-zinc-400">Low-friction entry. Log transitions, thoughts, and tasks faster than a text message.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center text-purple-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white">Energy Tracking</h3>
+                <p class="text-zinc-400">Integrated sliders to map your biological rhythm against your output.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="w-12 h-12 bg-emerald-600/20 rounded-lg flex items-center justify-center text-emerald-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white">Fuzzy Match Automation</h3>
+                <p class="text-zinc-400">Natural language processing automatically checks off your Big 3 intentions.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-zinc-900 py-20 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Ready to reclaim your focus?</h2>
+        <button class="px-10 py-4 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-500 transition">Get Zenith Free</button>
+        <p class="mt-8 text-zinc-600 text-sm">© 2026 Zenith Systems. Privacy-first by design.</p>
+    </footer>
+
+</body>
+</html>
